@@ -1,0 +1,171 @@
+*{margin: 0%; padding: 0%; outline: none; transition: 0.3s;  box-sizing: border-box;  font-family: 'Nunito', sans-serif;}
+body{overflow-x: hidden; background-color:var(--white);}
+:root{
+    --black:#000000;
+    --blue:#246CD8;
+    --gray:#999999;
+    --white:#FFFFFF;
+    --dark-blue:#0B2346;
+    --gray-bg:#FBFCFC;
+    --light-blue:#F4F7FD;
+}
+.flex-wrap{flex-wrap: wrap;}
+.flex-rev{flex-direction:column-reverse;}
+.text-dec-none{text-decoration: none;}
+.bold{font-weight: bold;}
+h1,h2,h3,h4,h5,h6,p{margin-bottom: 0rem;}
+.text-black{color: var(--black);}
+.text-blue{color: var(--blue);}
+.bg-blue{background-color:var(--blue);}
+.text-white{color: var(--white);}
+.bg-dark-blue{background-color: var(--dark-blue);}
+.text-gray{color: var(--gray);}
+.bg-gray{background-color: var(--gray-bg);}
+.bg-light-blue{background-color: var(--light-blue);}
+.text-gold{color: gold;}
+.bg-white{background-color: white;}
+
+
+/* navbar */
+nav{z-index: 1;}
+.navbar-brand img{width: 205px; height: 58px;}
+.sign-up-btn{background-color: var(--blue); color: white; font-weight: 600; text-decoration: none; border:2px solid var(--blue); font-size: 16px; padding: 15px 42px;}
+.sign-up-btn:hover{color: var(--black); background: none;}
+.navbar-nav .nav-item{margin-right: 40px; font-size: 18px; font-weight: 600; font-weight: bold; color: gray;}
+nav{filter: drop-shadow(0px 4px 12px rgb(0, 0, 0,8%));}
+
+/* hero section  */
+
+.hero .hero-img{z-index: -1;}
+.hero{margin-top: -42px;}
+.hero h1{font-size: 60px; font-weight: bold;}
+.hero p{font-size: 22px; font-weight: 500; color: var(--gray); margin-top: 1em;}
+.hero .hero-logo{margin-top: 3em;}
+.hero-wave{position: absolute; top: 34%; overflow: hidden; left: 10%; width: 100px; height: 100px; background: none;}
+.hero lottie-player{background-color:rgb(255, 255, 255,0%);}
+
+/* work page  */
+.w-70{width: 70%;}
+
+.work-page h3{font-size: 32px; margin-top: 3rem;}
+.work-page button{width: 60px; height: 60px; border-radius:50%; filter: drop-shadow(0px 8px 24px rgb(65, 71, 81,8%)); border: none;}
+.work-card{ box-shadow:0px 16px 32px rgba(168, 200, 245, 0.25);  border-radius: 12px; padding: 15px 20px;}
+.work-card:hover{box-shadow:0px 16px 32px rgba(168, 200, 245, 0.75);}
+.work-card p{font-size: 16px; color: var(--gray);}
+.work-card h4{font-weight: bold; font-size: 26px;}
+
+
+/* solution  */
+.solution{padding: 120px 0px;}
+.sol-park lottie-player{width: 500px; height: 500px;}
+.solution h3{font-size: 38px; margin-bottom: 1rem;}
+.solution p{font-size: 22px; margin-right: 30px;}
+.solution .btn{padding: 10px 70px; background-color: var(--blue); color: white; font-weight: 600; margin-top: 30px; font-size: 20px;} 
+
+.problem-page .work-card:hover{filter: drop-shadow(0px 6px 34px rgb(0, 0, 0,6%)); background-color: white; transition: 0.2s ease-in-out;}
+.problem-page{padding: 80px 0px;}
+
+
+
+/* testimonial */
+.testimonial{padding: 100px 0px;}
+.testimonial .star{margin-bottom: 1rem;}
+.testimonial p{margin: 1rem 0rem;}
+.testimonial .detail{align-items: center;}
+.testimonial .detail h6{font-weight: bold; padding: 0rem 0.7rem;}
+.testimonial .detail p{margin: 0rem 0rem; padding: 0rem 0.7rem; font-size: 14px;}
+
+
+.footer-nav{list-style: none;}
+.footer-nav .active{border-bottom: 2px solid blue; color: blue !important; font-weight: bold;}
+.w-60{width: 60%;}
+.inp-label{display: flex; flex-direction: column; background-color: none;}
+.inp{width: 70%; height: 70px; background-color: #304462; padding: 7px; margin-top: 20px !important; border-radius: 4px;}
+footer input[type="email"]{
+    width: 200px;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px; 
+    font-weight: bold;
+}
+footer label{color: gray;}
+footer input[type="submit"]{
+    height: 100%; padding: 0px 40px; background-color: var(--blue); color: white; border: none; font-weight: bold; border-radius: 4px;
+}
+.self-align-end{align-self: flex-end;}
+footer .bx{color: white; font-size: 24px;}
+     
+/* responsive  */
+@media(max-width:1400px){
+.work-page .card-container .p-5{padding: 2rem !important;}
+.problem-page .p-5{padding: 2em !important;}
+}
+@media(max-width:1200px){
+    .problem-page .p-5{padding: 1em !important;}
+    .sol-park lottie-player{width: 400px; height: 400px;}
+.work-page .card-container .p-5{padding: 1.5rem !important;}
+.navbar-nav .nav-item{margin-right: 20px; font-size: 16px; }
+.hero h1{font-size: 40px; font-weight: bold;}
+.hero p{font-size: 18px; }
+footer .main-flex{display: block !important;}
+.w-60{width: 100%;}
+.inp{width: 100%;}
+.foot-logo{padding: 40px 0px 10px 0px;}
+.fm{padding: 20px 0px;}
+ul{padding-left: 0em;}
+}
+@media(max-width:991.9px){
+    .hero h1{font-size: 70px; }
+.hero p{font-size: 24px; }
+    .hero .hero-img{display: none;}
+.hero{margin-top: -5px; padding: 20px 20px;}
+.numbering-btn{display: none;}
+.work-page{padding: 20px 0px;}
+.work-page .col-lg-4{margin: 10px 0px;}
+.hero{background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url(/Images/hero-bg.png);  background-repeat: no-repeat; background-position: center; background-size: cover; filter:opacity() ;}
+.work-page .card-container .p-5{padding: 0.5rem !important;}
+.navbar-nav .nav-item{margin-right: 20px; font-size: 18px; }
+.sol-park lottie-player{max-width: 500px; max-height: 500px;}
+.solution p{font-size: 18px; margin-right: 30px;}
+.social-icon{justify-content: left !important;}
+.footer-nav{justify-content: left !important;}
+.footer-nav li{padding: 0px 20px;}
+.social-icon a{padding: 0px 10px;}
+.prob{flex-direction: column-reverse;}
+ }
+
+@media(max-width:767.9px){
+    .hero h1{font-size: 50px; }
+.hero p{font-size: 20px; }
+    .footer-nav li{padding: 10px 0px;}
+    .solution{padding: 80px 0px;}
+.testimonial{padding: 80px 0px;}
+}
+@media(max-width:576px){
+    .hero h1{font-size: 40px; }
+.hero p{font-size: 16px; }
+    br{display: none;}
+    footer input[type="email"]{  width: 200px;font-size: 14px; }
+    footer input[type="submit"]{ height: 100%; padding: 0px 20px;}
+   .hero .hero-logo img{padding: 10px 0px;}
+   .solution .btn{padding: 10px 30px;}
+   .problem-page .btn{padding: 10px 30px;}
+.solution{padding: 50px 0px;}
+.testimonial{padding: 50px 0px;}
+
+
+}
+@media(max-width:420px){
+.sol-park lottie-player{max-width: 250px; max-height: 250px;}
+}
+@media(max-width:320px){
+footer label{color: gray; display: none;}
+
+}
+
+@media(max-width:270px){
+    .sol-park lottie-player{max-width: 190px; max-height: 190px;}
+    
+    }
