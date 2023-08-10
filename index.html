@@ -17,9 +17,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar_top navbar-expand-lg bg-white navbar-light" id="navbar_top">
-        <div class="container">
-            <a class="navbar-brand" href="#home"><img src="./Images/logo-new.png" alt="" class="img-fluid"></a>
+    <nav class="navbar navbar_top navbar-expand-lg bg-white navbar-light position-fixed w-100">
+        <div class="container-lg px-lg-0 px-3">
+            <a class="navbar-brand" href="#home"><img src="./Images/logoo.png" alt="" class="img-fluid"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,23 +30,27 @@
                         <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#how-work">How it Works</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#how">How it Works</a>
+                        <a class="nav-link" href="#how">Use cases for ZonShow</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#test">Testimonial</a>
-                    </li>
+                    </li> -->
 
             </div>
         </div>
     </nav>
+    <!-- <div class="one-heading"></div> -->
     <section class="hero" id="home">
         <div class="row">
             <div class="col-lg-6 m-auto  hero-img">
                 <div>
-                    <img src="./Images/hero.png" alt="" class="img-fluid">
+                    <img src="./Images/new-map.png" alt="" class="img-fluid">
                 </div>
                 <div class="hero-wave">
                     <lottie-player src="./Images/wave.json" speed="1" loop autoplay></lottie-player>
@@ -75,10 +79,10 @@
             </div>
         </div>
     </section>
-    <section class="work-page">
+    <section class="work-page  bg-gray" id="how-work">
         <div class="container text-center">
             <div class="text-center">
-                <h3 class="bold"><i class="bx bxs-map text-btn me-3 bold"></i>How it works</h3>
+                <h3 class="bold"><img src="./Images/work.png" alt="" class="icon-img me-3"></i>How it works</h3>
             </div>
             <div class="w-70 m-auto numbering-btn">
                 <div class="d-flex justify-content-center pt-4">
@@ -93,26 +97,26 @@
             <div class="row justify-content-between card-container">
                 <div class="col-lg-4 p-5">
                     <div class="work-card h-100">
-                        <img src="./Images/car-new.png" alt="" class="img-fluid">
+                        <img src="./Images/Order-s.png" alt="" class="img-fluid">
                         <h4 class="my-3">Create your Zone</h4>
-                        <p>The user for zonshow creates a zone using their phone. The zone data is owned by the user and
-                            stored on their device locally and is encrypted and uploaded to picParc servers to be
+                        <p>The user for ZonShow creates a zone using their phone. The zone data is owned by the user and
+                            stored on their device locally and is encrypted and uploaded to PicParc servers to be
                             managed by the user.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 p-5">
                     <div class="work-card h-100">
-                        <img src="./Images/park-new.png" alt="" class="img-fluid">
+                        <img src="./Images/piller-s.png" alt="" class="img-fluid">
                         <h4 class="my-3">Managed by Size</h4>
-                        <p>TWhen creating the zone on zonshow App the Local zone data can also be locally managed by
+                        <p>TWhen creating the zone on ZonShow App the Local zone data can also be locally managed by
                             chosen the size, shape and time frame for an active zone. This can be by voice command or by
                             selecting icons on the device screen.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 p-5">
                     <div class="work-card h-100">
-                        <img src="./Images/Parking-new.png" alt="" class="img-fluid">
-                        <h4 class="my-3">Parking zones</h4>
+                        <img src="./Images/Parking-s.png" alt="" class="img-fluid">
+                        <h4 class="my-3">Parking Zones</h4>
                         <p>There will be various types of zones to select, a parking zone to lease out, or a security
                             parking zone that has a time limit and is turned off once the vehicle is moved from the
                             temporary zone</p>
@@ -131,12 +135,12 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <h3 class="text-white">Solution description zonshow</h3>
-                    <p class="text-gray">First the zonshow APP is created and tested. <br>
+                    <h3 class="text-white">Solution description ZonShow</h3>
+                    <p class="text-gray">First the ZonShow APP is created and tested. <br>
                         Testing: The APP should start by voice command or by selecting the APP on the phone ICON.
                         It should start quickly, bringing a camera view, with some ICONs to select, Auto, or Bike, or
                         Person, or house, or RV or truck with trailer, or landscape, from a menu.</p>
-                    <a href="#" class="btn">Learn more</a>
+                    <!-- <a href="#" class="btn">Learn more</a> -->
                 </div>
             </div>
         </div>
@@ -147,16 +151,18 @@
                 <div class="col-lg-7">
                     <h3 class="text-black bold">Why it’s better than existing solutions </h3>
                     <p class="text-gray">No other software platform provide the security and transparency for each
-                        person, company or government agency that the picParc system. <br> <br>
+                        person, company or government agency that the PicParc system. <br> <br>
 
                         No other software platform or brick and mortar companies or government operations provide
                         funding for individuals or organizations that give the power back to the public to make our
                         communities safer, and function transparently using a simple social platform software.</p>
-                    <a href="#" class="btn">Learn more</a>
+                    <!-- <a href="#" class="btn">Learn more</a> -->
                 </div>
                 <div class="col-lg-5">
                     <div class="">
-                        <img src="./Images/why.png" alt="" class="img-fluid">
+                        <!-- <img src="./Images/why.png" alt="" class="img-fluid"> -->
+                        <lottie-player src="./js/73503-creative-team.json" background="transparent" speed="1" loop
+                            autoplay></lottie-player>
                     </div>
                 </div>
             </div>
@@ -165,51 +171,52 @@
     <section class="problem-page bg-light-blue" id="how">
         <div class="container text-center">
             <div class="text-center">
-                <h3 class="bold"><i class="bx bxs-map text-btn me-3"></i>How it works</h3>
+                <h2 class="bold pb-4"><img src="./Images/gow.png" alt="" class="icon-img me-3">Use cases for ZonShow
+                </h2>
             </div>
             <div class="row justify-content-between">
                 <div class="col-lg-4 p-4">
                     <div class="work-card h-100">
-                        <img src="./Images/problem.png" alt="" class="img-fluid">
+                        <img src="./Images/problem-s.png" alt="" class="img-fluid">
                         <h4 class="my-3">The Problem</h4>
                         <p>Currently the impact of Global warming has been in the news and there seems to be very little
                             each individual can do to help with solutions. The funding solutions has been limited to
                             large institutions or people with wealth.</p>
-                        <a href="#" class="btn bg-btn text-white">Learn more</a>
+                        <!-- <a href="#" class="btn bg-btn text-white">Learn more</a> -->
                     </div>
                 </div>
                 <div class="col-lg-4 p-4">
                     <div class="work-card h-100">
-                        <img src="./Images/statement.png" alt="" class="img-fluid">
-                        <h4 class="my-3">Problem statement</h4>
+                        <img src="./Images/statement-s.png" alt="" class="img-fluid">
+                        <h4 class="my-3">Problem Statement</h4>
                         <p>There currently is no easy solution to the many problems a city or individuals face day to
                             day.
-                            Finding a convenient parking space, picParc use AI to help find parking spots and its voice
+                            Finding a convenient parking space, PicParc use AI to help find parking spots and its voice
                             activated.</p>
-                        <a href="#" class="btn bg-btn text-white">Learn more</a>
+                        <!-- <a href="#" class="btn bg-btn text-white">Learn more</a> -->
                     </div>
                 </div>
                 <div class="col-lg-4 p-4">
                     <div class="work-card h-100">
-                        <img src="./Images/proposal.png" alt="" class="img-fluid">
+                        <img src="./Images/proposal-s.png" alt="" class="img-fluid">
                         <h4 class="my-3">Solution Proposal</h4>
-                        <p>The first project will be a prototype where the zonshow App is created. <br>
+                        <p>The first project will be a prototype where the ZonShow App is created. <br>
                             The APP will allow person to create a zone and check to see if the zone is functioning just
                             using local data on the phone.
                         </p>
-                        <a href="#" class="btn bg-btn text-white">Learn more</a>
+                        <!-- <a href="#" class="btn bg-btn text-white">Learn more</a> -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="testimonial">
+    <!-- <section class="testimonial">
         <div class="text-center ">
             <h3 class="mb-3 bold" id="test"><i class="bx bxs-map text-btn me-3"></i>Testimonial</h3>
             <p class="text-gray">Don't just take our word for it-check out some of the <br> latest customer testimonials
-                for our picParc App</p>
-            <!-- <i class='bx bxs-star'></i> -->
+                for our PicParc App</p>
+            <i class='bx bxs-star'></i>
         </div>
         <div class="owl-carousel owl-theme pt-3">
             <div class="testimonial-card h-100 py-5 px-4 bg-gray">
@@ -353,57 +360,74 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <footer class="bg-dark-blue pt-5">
+    <footer class="bg-dark-blue">
         <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-2">
-                    <div>
-                        <img src="./Images/footer-logo-new.png" alt="" class="img-fluid">
+            <div class="row justify-content-between  py-5">
+                <div class="col-lg-3 d-lg-flex justify-content-center align-items-center">
+                    <div class="">
+                        <img src="./Images/footer-logo.png" alt="" class="img-fluid footer-img">
+                        <P class="text-gray pt-3">No more searching for parking machines, small
+                            ones and thinking about the time of parking</P>
                     </div>
                     <!-- <div class="mt-3">
                         <a href="#" class="me-3"><img src="./Images/footer-app.png" alt=""></a>
                     </div> -->
                 </div>
-                <div class="col-lg-7 my-2">
-                    <div class="inp m-auto d-flex justify-content-between">
+                <div class="col-lg-6 my-2">
+                    <!-- <div class="inp m-auto d-flex justify-content-between">
                         <div class="inp-label w-100">
                             <input type="email" name="" id="" class="w-100" placeholder="Type Your Email Address">
                         </div>
                         <div>
                             <input type="submit" value="Send Now">
                         </div>
+                    </div> -->
+                    <div class="d-lg-flex justify-content-center align-items-center">
+                        <div>
+                            <h5 class="bold text-white text-lg-center mb-3">Follow Us</h5>
+                            <div class="social-icon text-center mt-2">
+                                <a href="#" class="text-dec-none d-flex align-items-center text-gray">
+                                    <i class='bx bxl-facebook me-2'></i>Facebook</a>
+                                <a href="#" class="text-dec-none d-flex align-items-center text-gray"><i
+                                        class='bx bxl-instagram  me-2'></i>Instagram</a>
+                                <a href="#" class="text-dec-none d-flex align-items-center text-gray"><i
+                                        class='bx bxl-twitter  me-2'></i>Twitter</a>
+                                <a href="#" class="text-dec-none d-flex align-items-center text-gray"><i
+                                        class='bx bxl-linkedin-square  me-2'></i>Linkedin</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 my-2">
                     <div>
-                        <h5 class="text-white mb-3 ms-lg-3">Contact us</h5>
-                        <h6 class="text-gray d-flex align-items-center my-2"><i class="ph-navigation-arrow-bold me-2"></i>
-                            <span>8075 Caminito De Pizza unit D, San Diego CA, 92108</span></h6>
+                        <h5 class="text-white mb-3">Contact us</h5>
+                        <h6 class="text-gray d-flex align-items-center my-2"><i
+                                class="ph-navigation-arrow-bold me-2"></i>
+                            <span>8075 Caminito De Pizza unit D, San Diego CA, 92108</span>
+                        </h6>
                         <h6 class="text-gray d-flex align-items-center my-2"><i class="ph-envelope-bold me-2"></i>
-                            <a href = "mailto: adam@zonshow.com" class="text-gray text-dec-none">adam@zonshow.com</a></h6>
+                            <a href="mailto: adam@ZonShow.com" class="text-gray text-dec-none">adam@zonshow.com</a>
+                        </h6>
                         <h6 class="text-gray d-flex align-items-center my-2"><i class="ph-phone-bold me-2"></i>
                             <a href="tel:(619) 800-4259" class="text-gray text-dec-none">
                                 +(619) 800-4259
-                            </a></h6>
+                            </a>
+                        </h6>
                     </div>
-                    <div class="social-icon text-center d-flex w-75 justify-content-between mt-3">
-                        <a href="#"><i class='bx bxl-facebook'></i></a>
-                        <a href="#"><i class='bx bxl-instagram'></i></a>
-                        <a href="#"><i class='bx bxl-twitter'></i></a>
-                        <a href="#"><i class='bx bxl-linkedin-square'></i></a>
-                    </div>
+
                 </div>
             </div>
-            <hr class="text-white bg-white my-3" />
-            <div class="d-md-flex justify-content-between pb-3">
+            <hr class="text-white bg-white" />
+            <div class="d-md-flex justify-content-between pt-3 pb-3">
                 <div>
-                    <p class="text-gray bold">Copyright © 2021 Zonshow. All Rights Reserved.</p>
+                    <p class="text-gray bold">Copyright © 2021 ZonShow. All Rights Reserved.</p>
                 </div>
                 <div class="d-md-flex ">
                     <p class="me-5 text-gray bold">Privacy Policy</p>
-                    <p class="text-gray bold">Terms & Conditions</p>
+                    <p class="text-gray bold"><a href="./Terms and conditions.html"
+                            class="text-gray bold text-dec-none">Terms & Conditions</a></p>
                 </div>
             </div>
         </div>
@@ -417,7 +441,30 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="https://unpkg.com/phosphor-icons"></script>
     <script src="./js/owl.carousel.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 00) {
+                    document.getElementById('navbar_top').classList.add('fixed-top');
+                    navbar_height = document.querySelector('.navbar').offsetHeight;
+                    document.body.style.paddingTop = navbar_height + 'px';
+
+                } else {
+                    document.getElementById('navbar_top').classList.remove('fixed-top');
+                    document.body.style.paddingTop = '';
+
+
+                }
+            });
+        });
+
+        $(".nav-items").click(function () {
+            $(".active").removeClass("active");
+            $(this).addClass("active");
+        });
+
+
         $(document).ready(function () {
             var owl = $('.owl-carousel');
             owl.owlCarousel({
